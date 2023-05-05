@@ -10,7 +10,7 @@ file_path = "C:/Users/akshaypa/PycharmProjects/python/data.txt"
 with open(file_path,"r")as file:
     contents = file.read()
     file.close()
-    print(contents)
+    #print(contents)
 cpu_files=open("data.csv")
 for line in cpu_files:
     if line.startswith("CPU_ALL"):
